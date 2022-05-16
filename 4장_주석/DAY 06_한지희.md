@@ -1,9 +1,5 @@
 # 4장. 주석
 
-Study Date: May 16, 2022
-Study Date: October 4, 2021
-발표: No
-
 > 나쁜 코드에 주석을 달지 마라. 새로 짜라.
 > 
 > 
@@ -36,6 +32,8 @@ Study Date: October 4, 2021
 
 ### **주석을 가능한 줄이도록 꾸준히 노력해야 한다**
 
+<br><br><br>
+
 ## 🧹 주석은 나쁜 코드를 보완하지 못한다
 
 - 코드에 주석을 추가하는 일반적인 이유는 코드 품질이 나쁘기 때문
@@ -45,6 +43,8 @@ Study Date: October 4, 2021
 ❗ 주석으로 설명하려 애쓰는 대신에 코드를 깨끗이 치우는 데 시간을 보내자
 
 </aside>
+
+<br><br><br>
 
 ## 🧹 코드로 의도를 표현하라!
 
@@ -56,6 +56,7 @@ if((employee.flags & HOURLY_FLAG) && (employee.age > 65))
 
 if(employee.isEligibleForFullBenefits())
 ```
+<br><br><br>
 
 ## 🧹 좋은 주석
 
@@ -190,7 +191,7 @@ return buildList(text.substring(match.end()));
     
     여느 주석과 마찬가지로 Javadocs 역시 독자를 오도하거나, 잘못 위치하거나, 그릇된 정보를 전달할 가능성이 존재함
     
-
+<br><br><br>
 ## 🧹 나쁜 주석
 
 - 대다수의 주석이 이 범주에 속함
@@ -350,7 +351,7 @@ if(moudleDependees.contains(ourSubSystem))
 - 공개 API는 Javadocs가 유용하지만, 공개하지 않을 코드라면 Javadocs는 쓸모가 없음
 - 시스템 내부에 속한 클래스와 함수에 Javadocs를 생성할 필요가 없음
     - 유용하지 않을 뿐만 아니라, Javadocs 주석이 요구하는 형식으로 인해 코드만 보기 싫어질 뿐임
-
+<br><br><br>
 ## 🧹 주석보다 annotation
 
 코드에 대한 메타 데이터
